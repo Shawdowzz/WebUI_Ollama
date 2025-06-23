@@ -33,28 +33,42 @@ Alternatively:
 
 - **Linux (Debian/Ubuntu):**
 
+```bash
+
 curl -fsSL https://ollama.com/install.sh | sh
+
+```
 
 - **Windows :**
 
 Use the installer from the site linked above.
 
-2. Download the Dolphin-Phi 3B Model
-   Once Ollama is installed, open a terminal and run:
+### 2. Download the Dolphin-Phi 3B Model
 
+Once Ollama is installed, open a terminal and run:
+
+```bash
 ollama pull dolphin-phi:3b
+
+```
 
 This will download and install the Dolphin-Phi 3B model locally.
 
-3. Run the Model
-   To start the model server:
+### 3. Run the Model
+
+To start the model server:
+
+```bash
 
 ollama run dolphin-phi:3b
 
+```
+
 This will launch the model and expose a local API (usually at <i>http://localhost:11434<i>) that the WebUI will interact with.
 
-4. Run It Locally
-   Open the web-ollama folder.
+### 4. Run It Locally
+
+Open the web-ollama folder.
 
 Double-click index.html.
 
