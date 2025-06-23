@@ -33,9 +33,9 @@ Alternatively:
 
 - **Linux (Debian/Ubuntu):**
 
-```bash
-curl -fsSL https://ollama.com/install.sh | sh
-```
+  ```bash
+  curl -fsSL https://ollama.com/install.sh | sh
+  ```
 
 - **Windows :**
 
@@ -72,5 +72,3 @@ Double-click index.html.
 It will open in your browser.
 
 Make sure Ollama is running (<i>ollama run dolphin-phi<i>).
-
-Type your message and chat!
