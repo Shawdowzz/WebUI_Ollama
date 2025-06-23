@@ -6,7 +6,7 @@ async function sendMessage() {
   if (!userText) return;
 
   // Show user message
-  chatBox.innerHTML += `<div><strong>You:</strong> ${userText}<br></div>`;
+  chatBox.innerHTML += `<div><strong>You:</strong> ${userText}</div><br>`;
   input.value = "";
 
   // Call Ollama API
@@ -23,6 +23,6 @@ async function sendMessage() {
   const data = await response.json();
 
   // Show AI response
-  chatBox.innerHTML += `<div><strong>Dolphin:</strong> ${data.response}</div>`;
+  chatBox.innerHTML += `<div><strong>Dolphin:</strong> ${data.response}</div><br>`;
   chatBox.scrollTop = chatBox.scrollHeight;
 }

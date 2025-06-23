@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background: #111111;
+  background: #fcfcfc;
   padding: 20px;
 }
 
 #chat-container {
   width: 1000px;
   margin: auto;
-  background: rgb(136, 133, 133);
+  background: rgb(110, 109, 109);
   box-shadow: 2px 4px 5px;
   padding: 20px;
   border-radius: 8px;
@@ -25,18 +25,29 @@ body {
 #user-input {
   width: 90%;
   padding: 10px;
+  border:none;
   border-radius: 8px;
+}
+#user-input:hover{
+  border:2px solid black;
 }
 
 button {
   padding: 10px 15px;
   border-radius:10px;
-  background-color:blue;
-  border:none;
-  box-shadow:5px 4px 4px rgb(157, 78, 231);
+  color:white;
+  background-color:rgb(58, 58, 58);
+  border:2px solid white;
+  box-shadow:3px 3px 3px rgb(102, 102, 102);
 }
 button:active{
   box-shadow:0px 0px 0px ;
+}
+button:hover{
+  transform:scale(1.03);
+  background-color:black;
+  border: 2px rgb(255, 255, 255) solid;
+  cursor: pointer
 }
 h1{
   text-align:center;
